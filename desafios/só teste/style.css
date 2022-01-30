@@ -1,0 +1,38 @@
+@charset "UTF-8"; 
+
+*{
+    margin: 0 auto;
+}
+
+body{
+    background-color: cornflowerblue;
+}
+
+header  h1{
+    text-align: center;
+    background-color: blueviolet;
+    color: white;
+    padding-bottom: 50px;
+    margin-bottom: -40px;
+
+}
+
+header nav a{
+    text-decoration: none;
+    color: white;
+    background-color: blueviolet;
+    padding: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+
+}
+
+header nav a:hover{
+    background-color: cadetblue;
+    text-decoration: underline;
+    border-radius: 10px;
+}
